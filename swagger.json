@@ -1,0 +1,42 @@
+{
+  "openapi": "3.0.0",
+  "info": {
+    "title": "Inspection  Detail",
+    "version": "1.0.0",
+    "description": ""
+  },
+  "servers": [
+    {
+      "url": "http://localhost:5000",
+      "description": "Development server"
+    }
+  ],
+  "paths": {
+    "/addItem": {
+      "post": {
+        "summary": "",
+        "description": "",
+        "responses": {
+          "200": {
+            "description": "Successfully item added"
+          },
+        "400": {
+          "description": "Bad request"
+        }
+        }
+      }
+    },
+
+    "/addCustomItem": {
+      "post": {
+        "summary": "",
+        "description": "",
+        "responses": {
+          "200": {
+            "description": "Successfully custom item added"
+          }
+        }
+      }
+    }
+  }
+}
